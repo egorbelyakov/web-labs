@@ -1,0 +1,122 @@
+body {
+    width: auto;
+    height: auto;
+    background: url("img1.jpg") top no-repeat;
+    background-size: cover;
+}
+
+.header{
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__logo{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    font-size: 20px;
+    color: antiquewhite;
+    vertical-align: top;
+    margin: 0 50px;
+    text-decoration: none;
+    transition: color .1s linear ;
+}
+
+.nav__link:hover {
+    color: darkslategray;
+}
+
+.intro__inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro__title {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.intro__suptitle {
+    color: black;
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.list_name {
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.first_list {
+    list-style-position: outside;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.boosting {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.deboosting {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.quote__pudge {
+    position: absolute;
+    right: 0;
+    padding-left: 50px;
+    border-left: 4px solid #e2e2e2;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.quote__pudge p {
+    color: darkred;font-family: 'Caveat', cursive;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 28px;
+}
+
+.quote__pudge cite {
+    font-family: 'Nosifer', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: red;
+}
+
+.symbol_picture {
+    color: red;
+}
