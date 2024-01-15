@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const reviewElement = document.createElement('div');
                     reviewElement.classList.add('review');
                     reviewElement.innerHTML =
-                        '<h3>' + review.name+'</h3>' +
+                        '<h3>' + review.email+'</h3>' +
                         '<p>' + review.body + '</p>'
                     ;
                     reviewsContainer.appendChild(reviewElement);
